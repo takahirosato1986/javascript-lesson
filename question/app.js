@@ -64,18 +64,12 @@ sayWorld();
 
 /* 基礎編 Q7 */
 
-John = {
-  name: "John",
-  age: 26,
-  bloodtype: "A",
-  favorite: "card",
-  birthday: "2000-09-27",
-  sayHello: function() {
-    console.log("Hello！");
-  }
-};
+user.birthday = "2000-09-27";
+user.sayHello = function() {
+  console.log("Hello！")
+}
 
-John.sayHello();
+user.sayHello();
 
 /* 基礎編 Q8 */
 
@@ -149,18 +143,22 @@ let num = 2;
 
 if (num > 0) {
   console.log("num is greater than 0");
-} else if(num < 0) {
-  console.log("num is less than 0");
-} else if(num === 0) {
+} else if (num === 0) {
   console.log("num is 0");
+} else {
+  console.log("num is less than 0");
 }
 
 /* 応用問題 Q4 */
 
 let numbers = [];
-for (let numbers = 0; numbers < 100; numbers++) {
-  console.log(numbers);
+numbers = new Array(100);
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+ console.log(i);
 }
+
 
 /* 応用問題 Q5 */
 
