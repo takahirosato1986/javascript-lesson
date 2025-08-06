@@ -153,10 +153,10 @@ if (num > 0) {
 
 let numbers = [];
 numbers = new Array(100);
-let sum = 0;
 
 for (let i = 0; i < numbers.length; i++) {
- console.log(i);
+numbers[i] = i;
+console.log(numbers[i]);
 }
 
 
