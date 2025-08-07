@@ -156,6 +156,9 @@ numbers = new Array(100);
 
 for (let i = 0; i < numbers.length; i++) {
 numbers[i] = i;
+}
+
+for (let i = 0; i < numbers.length; i++) {
 console.log(numbers[i]);
 }
 
